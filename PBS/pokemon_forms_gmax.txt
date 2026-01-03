@@ -28,7 +28,7 @@ Pokedex = Crystallized Gigantamax energy makes up this Pokémon's blindingly bri
 Generation = 8
 GmaxMove = GMAXBEFUDDLE
 #-------------------------------
-[PIKACHU,17]
+[PIKACHU,16]
 FormName = Gigantamax
 Height = 21.0
 Pokedex = Its Gigantamax power expanded, forming its supersized body and towering tail.

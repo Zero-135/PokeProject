@@ -5,3 +5,21 @@ CallRateSOS = 0
 #-------------------------------
 [FLOETTE,5]
 CallRateSOS = 0
+#-------------------------------
+[WOOPER,1]
+SpeciesSOS = WOOPER,CLODSIRE
+#-------------------------------
+[REVAVROOM,1]
+CallRateSOS = 0
+#-------------------------------
+[REVAVROOM,2]
+CallRateSOS = 0
+#-------------------------------
+[REVAVROOM,3]
+CallRateSOS = 0
+#-------------------------------
+[REVAVROOM,4]
+CallRateSOS = 0
+#-------------------------------
+[REVAVROOM,5]
+CallRateSOS = 0

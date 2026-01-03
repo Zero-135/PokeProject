@@ -1,0 +1,13 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[TERABLAST]
+Name = Teraexplosión
+Type = NORMAL
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamageTera
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Movimiento cuyo tipo varia al del usuario en caso de que éste haya teracristalizado.

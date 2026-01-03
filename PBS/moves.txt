@@ -9027,6 +9027,7 @@ TotalPP = 5
 Target = UserAndAllies
 FunctionCode = HealUserAndAlliesQuarterOfTotalHPCureStatus
 Description = Dedica una oración a la luna que restaura PS y los problemas de estado del bando del usuario. 
+Flags = ZPower_ResetStats
 #-------------------------------
 [PSYSHIELDBASH]
 Name = Asalto Barrera
@@ -9086,7 +9087,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = RaiseUserAtkDefSpd1
-Flags = Dance
+Flags = Dance,ZPower_ResetStats
 Description = Ejecuta una danza frenética que invoca la victoria y aumenta el Ataque, la Defensa y la Velocidad. 
 #-------------------------------
 [SHELTER]
@@ -9098,6 +9099,7 @@ TotalPP = 10
 Target = User
 FunctionCode = RaiseUserDefense2
 Description = La piel del usuario se vuelve dura como un escudo de acero, lo que aumenta mucho su Defensa.
+Flags = ZPower_ResetStats
 #-------------------------------
 [INFERNALPARADE]
 Name = Marcha Espectral
@@ -9134,6 +9136,7 @@ TotalPP = 10
 Target = User
 FunctionCode = RaiseUserSpAtkSpDef1CureStatus
 Description = El usuario se cura de problemas de estado. Aumenta su Ataque Especial y su Defensa Especial. 
+Flags = ZPower_ResetStats
 #-------------------------------
 [AQUACUTTER]
 Name = Tajo Acuático
@@ -9232,7 +9235,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartHailWeatherSwitchOutUser
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_HealSwitch
 Description = Cuenta un chiste con una acogida tan fría que hace que nieve, y se cambia por un Pokémon del equipo. 
 #-------------------------------
 [COLLISIONCOURSE]
@@ -9280,7 +9283,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearFoe
 FunctionCode = SetUserAlliesAbilityToTargetAbility
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_SPEED_1
 Description = Calca la esencia misma del objetivo para atribuir su habilidad a sí mismo y a sus aliados. 
 #-------------------------------
 [DOUBLESHOCK]
@@ -9315,7 +9318,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserAtk2SpAtk2Speed2LoseHalfOfTotalHP
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_HealUser
 Description = Aumenta mucho el Ataque, el Ataque Especial y la Velocidad del usuario a costa de parte de sus PS. 
 #-------------------------------
 [FLOWERTRICK]
@@ -9549,7 +9552,7 @@ Accuracy = 0
 TotalPP = 1
 Target = User
 FunctionCode = RevivePokemonHalfHP
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_HealUser
 Description = Oración que revive a un Pokémon del equipo que se haya debilitado y restaura la mitad de sus PS. 
 #-------------------------------
 [RUINATION]
@@ -9585,7 +9588,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = UserMakeSubstituteSwitchOut
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_HealSwitch
 Description = El usuario se cambia por otro Pokémon del equipo dejando un sustituto a cambio de sus PS. 
 #-------------------------------
 [SILKTRAP]
@@ -9597,7 +9600,7 @@ TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = ProtectUserFromDamagingMovesSilkTrap
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_SPEED_1
 Description = Trampa sedosa que protege al usuario. Baja la Velocidad de quien lo toca. 
 #-------------------------------
 [SNOWSCAPE]
@@ -9608,7 +9611,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartHailWeather
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_SPECIAL_DEFENSE_1
 Description = Invoca una nevada durante 5 turnos que aumenta la Defensa de los Pokémon de tipo Hielo.
 #-------------------------------
 [SPICYEXTRACT]
@@ -9619,7 +9622,7 @@ Accuracy = 0
 TotalPP = 15
 Target = NearOther
 FunctionCode = RaiseTargetAtkLowerTargetDef2
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,ZPower_ATTACK_2
 Description = Libera un extracto picante que aumenta mucho su Ataque, pero también reduce mucho su Defensa. 
 #-------------------------------
 [SPINOUT]
@@ -9642,7 +9645,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserAtkSpd1RemoveHazardsSubstitutes
-Flags = CannotMetronome
+Flags = CannotMetronome,ZPower_ResetStats
 EffectChance = 100
 Description = Aumenta el Ataque y la Velocidad. Limpia efectos de efectos como Púas, Trampa Rocas o Sustituto.
 #-------------------------------
@@ -9831,6 +9834,7 @@ Target = User
 Priority = 4
 FunctionCode = ProtectUserBurningBulwark
 Description = Emplea pelaje para protegerse de ataques y causar quemaduras si le tocan.
+Flags = ZPower_DEFENSE_1
 #-------------------------------
 [THUNDERCLAP]
 Name = Relámpago Súbito
@@ -9890,6 +9894,7 @@ TotalPP = 10
 Target = AllAllies
 FunctionCode = RaiseAlliesCriticalHitRate1DragonTypes2
 Description = Bramido que aumenta la probabilidad de golpe crítico de aliados, y en dos niveles si es Dragón.
+Flags = ZPower_CriticalHit
 #-------------------------------
 [ALLURINGVOICE]
 Name = Canto Encantador
@@ -9967,16 +9972,4 @@ FunctionCode = BadPoisonTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 50
 Description = Apresa al objetivo con una cadena para minarle las fuerzas. Puede envenenar gravemente.
-#-------------------------------
-[TERABLAST]
-Name = Teraexplosión
-Type = NORMAL
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = None
-Flags = Contact,CanProtect,CanMirrorMove
-Description = Movimiento cuyo tipo varia al del usuario en caso de que éste haya teracristalizado.
 #-------------------------------
