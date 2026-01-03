@@ -249,68 +249,69 @@ GenderRatio = AlwaysFemale
 Abilities = LIGHTNINGROD
 
 #-------------------------------
-
 [PIKACHU,8]
-
-FormName = Forma Gorra Original
-
-GenderRatio = AlwaysMale
-
+FormName = Original Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across lots of different regions together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,9]
-
-FormName = Forma Gorra Hoenn
-
-GenderRatio = AlwaysMale
-
+FormName = Hoenn Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Hoenn region together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,10]
-
-FormName = Forma Gorra Sinnoh
-
-GenderRatio = AlwaysMale
-
+FormName = Sinnoh Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Sinnoh region together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,11]
-
-FormName = Forma Gorra Teselia
-
-GenderRatio = AlwaysMale
-
+FormName = Unova Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Unova region together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,12]
-
-FormName = Forma Gorra Kalos
-
-GenderRatio = AlwaysMale
-
+FormName = Kalos Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Kalos region together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,13]
-
-FormName = Forma Gorra Alola
-
-GenderRatio = AlwaysMale
-
+FormName = Alola Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Alola region together.
+Generation = 7
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,14]
-
-FormName = Forma Gorra Compañero
-
-GenderRatio = AlwaysMale
-
+FormName = Partner Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon traveling together with its partner, whom it met in a fateful encounter.
+Generation = 8
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 #-------------------------------
-
 [PIKACHU,15]
-
-FormName = Forma Gorra Trotamundos
-
-GenderRatio = AlwaysMale
+FormName = World Cap
+EggGroups = Undiscovered
+Pokedex = The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the world together.
+Generation = 8
+Flags = SOSForm_0,CannotDynamax,CannotTerastallize
+Evolutions = RAICHU,None
 
 #-------------------------------
 
@@ -2154,6 +2155,7 @@ Weight = 430.0
 Generation = 6
 
 #-------------------------------
+Flags = Legendary,CannotDynamax
 
 [GROUDON,1]
 
@@ -2174,6 +2176,7 @@ Weight = 999.7
 Generation = 6
 
 #-------------------------------
+Flags = Legendary,CannotDynamax
 
 [RAYQUAZA,1]
 
@@ -4093,6 +4096,7 @@ Color = Yellow
 Pokedex = Esta forma es el resultado de haber absorbido una gran cantidad de energía luminosa. Emite rayos láser por todo el cuerpo.
 
 #-------------------------------
+Flags = Legendary,CannotDynamax
 
 [NECROZMA,4]
 
@@ -4113,6 +4117,7 @@ Height = 7.5
 Color = Yellow
 
 #-------------------------------
+Flags = Legendary,CannotDynamax
 
 [MAGEARNA,1]
 

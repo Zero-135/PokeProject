@@ -45377,6 +45377,7 @@ Pokedex = Obsequia bayas decoradas con nata a aquellos Entrenadores en los que c
 Generation = 8
 
 #-------------------------------
+Flags = AllFormsShareGmax
 
 [FALINKS]
 
@@ -46336,7 +46337,7 @@ Pokedex = Este Pokémon está considerado como un héroe de leyenda. Absorbe el 
 
 Generation = 8
 
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 
 WildItemCommon = RUSTEDSWORD
 
@@ -46392,7 +46393,7 @@ Pokedex = Con la apariencia de una estatua de piedra, este Pokémon se sumió en
 
 Generation = 8
 
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 
 WildItemCommon = RUSTEDSHIELD
 
